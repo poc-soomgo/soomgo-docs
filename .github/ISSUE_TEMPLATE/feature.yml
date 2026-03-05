@@ -1,0 +1,73 @@
+name: "Feature Request"
+description: "새로운 기능 요청"
+title: "[Feature] "
+labels: ["type:feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 새 기능 요청
+        숨고 iOS 앱의 새로운 기능을 제안해주세요.
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: "도메인"
+      options:
+        - "인증/로그인 (auth)"
+        - "검색/매칭 (search)"
+        - "프로필/고수 (profile)"
+        - "견적/예약 (booking)"
+        - "결제 (payment)"
+        - "채팅/메시지 (chat)"
+        - "기타"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "우선순위"
+      options:
+        - "P0 - 긴급"
+        - "P1 - 높음"
+        - "P2 - 보통"
+        - "P3 - 낮음"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "기능 설명"
+      description: "구현하려는 기능을 상세히 설명해주세요."
+      placeholder: "사용자로서 ~하고 싶다. 왜냐하면 ~이기 때문이다."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "인수 조건 (Acceptance Criteria)"
+      description: "이 기능이 완료되었다고 판단할 수 있는 조건을 작성하세요."
+      placeholder: |
+        - [ ] 조건 1
+        - [ ] 조건 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: design
+    attributes:
+      label: "디자인/와이어프레임"
+      description: "관련 디자인 링크나 스크린샷을 첨부해주세요."
+    validations:
+      required: false
+
+  - type: textarea
+    id: technical-notes
+    attributes:
+      label: "기술 노트"
+      description: "구현 시 참고할 기술적 사항이 있다면 작성해주세요."
+    validations:
+      required: false
