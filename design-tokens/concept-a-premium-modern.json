@@ -1,0 +1,48 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "컨셉 A - Premium Modern",
+    "description": "다크 네이비 + 민트 그린 + 퍼플 악센트 / 프리미엄 서비스 지향",
+    "figmaFileKey": "U0OIJmKAr3dUcNyrfvBk87",
+    "figmaPage": "컨셉 A - Premium Modern",
+    "concept": "고급 서비스 마켓플레이스 포지셔닝. 네이비/그린의 신뢰감과 퍼플 악센트로 프리미엄 감성 전달."
+  },
+  "color": {
+    "primary": { "value": "#101728", "type": "color", "description": "다크 네이비 (메인)" },
+    "primary-dark": { "value": "#0A0F1F", "type": "color", "description": "딥 네이비" },
+    "secondary": { "value": "#00D1AB", "type": "color", "description": "민트 그린 (CTA/강조)" },
+    "background": { "value": "#FAFAFE", "type": "color", "description": "오프화이트 배경" },
+    "surface": { "value": "#FFFFFF", "type": "color", "description": "서피스" },
+    "text-primary": { "value": "#101728", "type": "color", "description": "본문 텍스트" },
+    "text-secondary": { "value": "#737A8C", "type": "color", "description": "보조 텍스트" },
+    "divider": { "value": "#E6E8EE", "type": "color", "description": "구분선" },
+    "accent": { "value": "#6659FF", "type": "color", "description": "퍼플 악센트 (프리미엄 배지 등)" },
+    "error": { "value": "#F24236", "type": "color", "description": "오류" },
+    "warning": { "value": "#FFA726", "type": "color", "description": "경고" },
+    "success": { "value": "#00D1AB", "type": "color", "description": "성공" }
+  },
+  "typography": {
+    "display": { "value": { "fontFamily": "Pretendard", "fontSize": 32, "fontWeight": 800, "lineHeight": 40 } },
+    "headline": { "value": { "fontFamily": "Pretendard", "fontSize": 24, "fontWeight": 700, "lineHeight": 32 } },
+    "title": { "value": { "fontFamily": "Pretendard", "fontSize": 18, "fontWeight": 600, "lineHeight": 26 } },
+    "body": { "value": { "fontFamily": "Pretendard", "fontSize": 15, "fontWeight": 400, "lineHeight": 22 } },
+    "caption": { "value": { "fontFamily": "Pretendard", "fontSize": 13, "fontWeight": 400, "lineHeight": 18 } },
+    "label": { "value": { "fontFamily": "Pretendard", "fontSize": 11, "fontWeight": 600, "lineHeight": 16 } }
+  },
+  "spacing": {
+    "xs": { "value": 4 },
+    "sm": { "value": 8 },
+    "md": { "value": 16 },
+    "lg": { "value": 20 },
+    "xl": { "value": 28 },
+    "2xl": { "value": 40 },
+    "3xl": { "value": 56 }
+  },
+  "radius": {
+    "sm": { "value": 8 },
+    "md": { "value": 14 },
+    "lg": { "value": 20 },
+    "xl": { "value": 28 },
+    "full": { "value": 9999 }
+  }
+}

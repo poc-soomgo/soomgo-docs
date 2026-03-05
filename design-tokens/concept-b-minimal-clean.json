@@ -1,0 +1,48 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "컨셉 B - Minimal Clean",
+    "description": "딥 티일 + 웜 그레이 + 골드 / 미니멀리즘 & 신뢰감",
+    "figmaFileKey": "U0OIJmKAr3dUcNyrfvBk87",
+    "figmaPage": "컨셉 B - Minimal Clean",
+    "concept": "여백과 타이포그래피 중심의 클린 디자인. 절제된 컬러와 큰 여백으로 콘텐츠 집중도 극대화."
+  },
+  "color": {
+    "primary": { "value": "#009E87", "type": "color", "description": "딥 티일 (메인)" },
+    "primary-dark": { "value": "#007B69", "type": "color", "description": "다크 티일" },
+    "secondary": { "value": "#F5F5F0", "type": "color", "description": "웜 그레이 (서브 배경)" },
+    "background": { "value": "#FFFFFC", "type": "color", "description": "웜 화이트 배경" },
+    "surface": { "value": "#FFFFFF", "type": "color", "description": "서피스" },
+    "text-primary": { "value": "#1A1A1A", "type": "color", "description": "본문 텍스트" },
+    "text-secondary": { "value": "#999994", "type": "color", "description": "보조 텍스트" },
+    "divider": { "value": "#EEEEEA", "type": "color", "description": "구분선" },
+    "accent": { "value": "#F5A623", "type": "color", "description": "골드 악센트 (별점, 프리미엄)" },
+    "error": { "value": "#D62E2E", "type": "color", "description": "오류" },
+    "warning": { "value": "#FABA40", "type": "color", "description": "경고" },
+    "success": { "value": "#009E87", "type": "color", "description": "성공" }
+  },
+  "typography": {
+    "display": { "value": { "fontFamily": "Pretendard", "fontSize": 26, "fontWeight": 700, "lineHeight": 36 } },
+    "headline": { "value": { "fontFamily": "Pretendard", "fontSize": 20, "fontWeight": 600, "lineHeight": 28 } },
+    "title": { "value": { "fontFamily": "Pretendard", "fontSize": 16, "fontWeight": 600, "lineHeight": 24 } },
+    "body": { "value": { "fontFamily": "Pretendard", "fontSize": 15, "fontWeight": 400, "lineHeight": 24 } },
+    "caption": { "value": { "fontFamily": "Pretendard", "fontSize": 13, "fontWeight": 400, "lineHeight": 20 } },
+    "label": { "value": { "fontFamily": "Pretendard", "fontSize": 11, "fontWeight": 500, "lineHeight": 16 } }
+  },
+  "spacing": {
+    "xs": { "value": 4 },
+    "sm": { "value": 8 },
+    "md": { "value": 16 },
+    "lg": { "value": 24 },
+    "xl": { "value": 32 },
+    "2xl": { "value": 48 },
+    "3xl": { "value": 64 }
+  },
+  "radius": {
+    "sm": { "value": 4 },
+    "md": { "value": 8 },
+    "lg": { "value": 12 },
+    "xl": { "value": 16 },
+    "full": { "value": 9999 }
+  }
+}

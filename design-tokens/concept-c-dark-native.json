@@ -1,0 +1,49 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "컨셉 C - Dark Native",
+    "description": "다크 배경 + 네온 그린 + 라벤더 / 트렌디한 다크모드 네이티브",
+    "figmaFileKey": "U0OIJmKAr3dUcNyrfvBk87",
+    "figmaPage": "컨셉 C - Dark Native",
+    "concept": "다크모드 퍼스트 디자인. 네온 그린과 라벤더 포인트로 감각적인 젊은 사용자 타겟. 눈의 피로도 감소와 OLED 배터리 효율."
+  },
+  "color": {
+    "primary": { "value": "#00DEB5", "type": "color", "description": "네온 그린 (메인)" },
+    "primary-dark": { "value": "#00B594", "type": "color", "description": "딥 그린" },
+    "secondary": { "value": "#BB8CFF", "type": "color", "description": "라벤더 (서브 강조)" },
+    "background": { "value": "#121217", "type": "color", "description": "다크 배경" },
+    "surface": { "value": "#1C1C23", "type": "color", "description": "다크 서피스 / 카드 배경" },
+    "surface-elevated": { "value": "#252530", "type": "color", "description": "Elevated 서피스" },
+    "text-primary": { "value": "#F2F2F8", "type": "color", "description": "본문 텍스트 (라이트)" },
+    "text-secondary": { "value": "#9999A6", "type": "color", "description": "보조 텍스트" },
+    "divider": { "value": "#2A2A35", "type": "color", "description": "구분선" },
+    "accent": { "value": "#00DEB5", "type": "color", "description": "악센트 (primary 동일)" },
+    "error": { "value": "#FF5959", "type": "color", "description": "오류" },
+    "warning": { "value": "#FFB840", "type": "color", "description": "경고" },
+    "success": { "value": "#00DEB5", "type": "color", "description": "성공" }
+  },
+  "typography": {
+    "display": { "value": { "fontFamily": "Pretendard", "fontSize": 28, "fontWeight": 800, "lineHeight": 36 } },
+    "headline": { "value": { "fontFamily": "Pretendard", "fontSize": 22, "fontWeight": 700, "lineHeight": 30 } },
+    "title": { "value": { "fontFamily": "Pretendard", "fontSize": 17, "fontWeight": 600, "lineHeight": 24 } },
+    "body": { "value": { "fontFamily": "Pretendard", "fontSize": 15, "fontWeight": 400, "lineHeight": 22 } },
+    "caption": { "value": { "fontFamily": "Pretendard", "fontSize": 13, "fontWeight": 400, "lineHeight": 18 } },
+    "label": { "value": { "fontFamily": "Pretendard", "fontSize": 11, "fontWeight": 600, "lineHeight": 16 } }
+  },
+  "spacing": {
+    "xs": { "value": 4 },
+    "sm": { "value": 8 },
+    "md": { "value": 12 },
+    "lg": { "value": 16 },
+    "xl": { "value": 24 },
+    "2xl": { "value": 32 },
+    "3xl": { "value": 48 }
+  },
+  "radius": {
+    "sm": { "value": 8 },
+    "md": { "value": 12 },
+    "lg": { "value": 16 },
+    "xl": { "value": 24 },
+    "full": { "value": 9999 }
+  }
+}
